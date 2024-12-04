@@ -87,7 +87,6 @@ jobs:
         run: |
           mkdir -p out  
           javac -d out -cp ".:lib/*" \
-            "src/LoginApp.java" \
             "src/LoginAppTest.java"
 
       # Step 7: Run Unit Tests
